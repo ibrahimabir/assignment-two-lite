@@ -230,3 +230,28 @@ button {
     color: #D9DBE1;
     padding-top: 17px;
 }
+/* media quaries for responsive website  */
+@media only screen and (max-width:688px) {
+    .introduction-product{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container-one{
+        width: 100%;
+    }
+    .product-cards, .shop-detailes, .menu-bar, .influencer-footer{
+        display: none;
+    }
+    .info-image{
+        order: 1;
+    }
+    .info{
+        order: 2;
+        margin-right: 0;
+        padding-top: 14px;
+    }
+    .info p{
+        padding-right: 0;
+    }
+    
+}
