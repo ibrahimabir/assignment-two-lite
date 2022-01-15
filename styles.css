@@ -77,19 +77,20 @@ body{
     transform: scale(1.2);
     transition: transform 1.5s ease-out;
 }
-/* .info-image{
+.info-image{
     background-image: url(./images/Circle\ design.svg);
-} */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* e commerce sites styles */
-/* .e-commerce-sites{
-    width: 1110px;
-    height: 110px;
-} */
 .e-commerce-sites a{
    padding-left: 61px;
    padding-right: 12px;
 }
 /* product cards styles */
+.product-cards{
+    height: 1740px;
+}
 .product-cards h1{
     text-align: center;
     font-weight: 600;
@@ -167,4 +168,65 @@ body{
 }
 .right-side-link-button a i{
     padding: 0 15px 0 8px;
+}
+/* shop detailes styles */
+.shop-detailes{
+    display: flex;
+}
+.detailes{
+    margin-left: 96px;
+}
+.detailes h1{
+    font-size: 38px;
+    color: #0A0826;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 23px 0 0 0 ;
+}
+.detailes p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-right: 109px;
+}
+button {
+    padding: 10px 0 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #E02C6D;
+}
+#last-button{
+    padding: 0 24px 0 8px;
+}
+/* ---------footer styles------- */
+.influencer-footer{
+    background-color:  #0A0826;
+    height: 239px;
+    margin-top: 100px;
+}
+.footer{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.footer h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin: 3px 0;
+}
+.footer i{
+    margin-left: 16px;
+    color: #D9DBE1;
+    padding-top: 17px;
 }
